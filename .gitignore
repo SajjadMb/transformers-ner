@@ -1,0 +1,8 @@
+.idea/
+*/__pycache__/
+outputs/
+*.Skywalker
+*.pyc
+.idea/transformer-ner.iml
+.idea/other.xml
+.idea/misc.xml
