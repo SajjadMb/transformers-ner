@@ -6,7 +6,7 @@ MODEL_NAME_OR_PATH='roberta-base'
 OUTPUT_DIR='../outputs/'
 LABEL='../datasets/Parsner/labels.txt'
 
-CUDA_VISIBLE_DEVICES='1' python ../examples/run_crf_ner.py \
+CUDA_VISIBLE_DEVICES='0' python ../examples/run_crf_ner.py \
 --data_dir $DATA_DIR \
 --model_type $MODEL_TYPE \
 --model_name_or_path $MODEL_NAME_OR_PATH \
@@ -25,4 +25,4 @@ CUDA_VISIBLE_DEVICES='1' python ../examples/run_crf_ner.py \
 --learning_rate 5e-5 \
 --bert_lr 5e-5 \
 --classifier_lr  5e-5 \
---crf_lr  1e-3 \
+--crf_lr  1e-3
