@@ -26,4 +26,3 @@ CUDA_VISIBLE_DEVICES='1' python ../examples/run_crf_ner.py \
 --bert_lr 5e-5 \
 --classifier_lr  5e-5 \
 --crf_lr  1e-3 \
---no_cuda
