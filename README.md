@@ -8,7 +8,7 @@ Support chinese ner and english ner datasets
 
 1. cluener(chinese)
 2. conll2003(english)
-3. Parsner
+3. Parsner(persian)
 
 ## model_list
 
